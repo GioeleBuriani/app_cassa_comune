@@ -1,0 +1,9 @@
+# Disable line ending normalization for generated Flutter plugin files
+linux/flutter/generated_plugin_registrant.cc text -diff -crlf
+linux/flutter/generated_plugin_registrant.h text -diff -crlf
+linux/flutter/generated_plugins.cmake text -diff -crlf
+macos/Flutter/GeneratedPluginRegistrant.swift text -diff -crlf
+windows/flutter/generated_plugin_registrant.cc text -diff -crlf
+windows/flutter/generated_plugin_registrant.h text -diff -crlf
+windows/flutter/generated_plugins.cmake text -diff -crlf
+pubspec.lock text -diff -crlf # pubspec.lock can also be annoying with line endings
