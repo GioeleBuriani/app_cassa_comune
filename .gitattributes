@@ -6,4 +6,6 @@ macos/Flutter/GeneratedPluginRegistrant.swift text -diff -crlf
 windows/flutter/generated_plugin_registrant.cc text -diff -crlf
 windows/flutter/generated_plugin_registrant.h text -diff -crlf
 windows/flutter/generated_plugins.cmake text -diff -crlf
-pubspec.lock text -diff -crlf # pubspec.lock can also be annoying with line endings
+
+# Also disable for pubspec.lock to prevent warnings there
+pubspec.lock text -diff -crlf
